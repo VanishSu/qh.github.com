@@ -41,7 +41,7 @@
 
 </head>
 </html>
-<body>
+<body style="background: url('./img/background.jpg') 100% 100% / cover fixed;">
   <div id="container" q-class="show:isCtnShow">
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
@@ -152,7 +152,7 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-值得" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-值得" class="article article-type-post " itemscope itemprop="blogPost" style="background: rgb(255,255,255,0.8)">
   <div class="article-inner">
     
       <header class="article-header">
@@ -381,10 +381,6 @@ new Valine({
         <span id="busuanzi_container_site_pv">
                 本站总访问量<span id="busuanzi_value_site_pv"></span>次
         </span>
-        <span class="post-meta-divider">|</span>
-        <span id="busuanzi_container_site_uv" style='display:none'>
-                本站访客数<span id="busuanzi_value_site_uv"></span>人
-        </span>
         <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 		
     </div>
@@ -583,4 +579,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
 </div>
   </div>
 </body>
+<style>
+#container.show{ background: url('/img/background.jpg') }
+</style>
 </html>
